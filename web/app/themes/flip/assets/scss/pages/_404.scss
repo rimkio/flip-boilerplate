@@ -1,0 +1,79 @@
+body.error404{
+    .main-section-content{
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        &::before{
+            content: " ";
+            display: inline-block;
+            width: 239px;
+            height: 337px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('../../images/graphics-404-page.png');
+            position: absolute;
+            right: 0;
+            bottom: -10px;
+
+            @include media-breakpoint-down(xl) {
+                width: 180px;
+                height: 254px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                width: 100px;
+                height: 141px;
+            }
+        }
+
+        > .container{
+            max-width: 840px;
+        }
+
+        h1{
+            font-size: 64px;
+            font-weight: 900;
+            line-height: 110%;
+            margin: 0;
+
+            @include media-breakpoint-down(lg) {
+                font-size: 48px;
+            }
+
+            @include media-breakpoint-down(md) {
+                font-size: 40px;
+            }
+        }
+
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 140%;
+            margin: 16px 0 0 0;
+
+            @include media-breakpoint-down(md) {
+                font-size: 16px;
+            }
+        }
+
+        a{
+            color: $primary;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 133.333%;
+            text-transform: uppercase;
+            padding: 14px 20px;
+            border-radius: 100px;
+            background: $secondary;
+            display: flex;
+            width: fit-content;
+            text-decoration: none;
+            margin: 26px 0 0 0;
+        }
+    }
+}

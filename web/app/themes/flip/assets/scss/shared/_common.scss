@@ -1,0 +1,16 @@
+@each $heading, $heading-info in $headings {
+    #{$heading} {
+        @each $key, $value in $heading-info {
+            #{$key}: $value;
+        }
+    }
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}

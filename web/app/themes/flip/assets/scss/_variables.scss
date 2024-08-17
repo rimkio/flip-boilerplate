@@ -1,0 +1,25 @@
+$fonts_primary: (
+  'MuseoSansRounded100': (family: 'Museo Sans Rounded', file: 'MuseoSansRounded100', weight: 100, style: normal),
+  'MuseoSansRounded300': (family: 'Museo Sans Rounded', file: 'MuseoSansRounded300', weight: 300, style: normal),
+  'MuseoSansRounded500': (family: 'Museo Sans Rounded', file: 'MuseoSansRounded500', weight: 500, style: normal),
+  'MuseoSansRounded700': (family: 'Museo Sans Rounded', file: 'MuseoSansRounded700', weight: 700, style: normal),
+  'MuseoSansRounded900': (family: 'Museo Sans Rounded', file: 'MuseoSansRounded900', weight: 900, style: normal),
+  'MuseoSansRounded1000': (family: 'Museo Sans Rounded', file: 'MuseoSansRounded1000', weight: 1000, style: normal)
+);
+
+
+$fonts_sora: (
+  'Sora-Regular': (family: 'Sora', file: 'Sora-Regular', weight: 400, style: normal),
+);
+
+
+$headings: (
+  'h1': ('line-height': $h1-line-height),
+  'h2': ('line-height': $h2-line-height),
+  'h3': ('line-height': $h3-line-height),
+  'h4': ('line-height': $h4-line-height),
+  'h5': ('line-height': $h5-line-height),
+  'h6': ('line-height': $h6-line-height)
+);
+
+$transition-base: all .3s ease-in !default;

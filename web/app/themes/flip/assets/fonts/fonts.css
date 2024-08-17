@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Museo Sans Rounded';
+  src: url(MuseoSansRounded100.otf) format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Rounded';
+  src: url(MuseoSansRounded300.otf) format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Rounded';
+  src: url(MuseoSansRounded500.otf) format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Rounded';
+  src: url(MuseoSansRounded700.otf) format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Rounded';
+  src: url(MuseoSansRounded900.otf) format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Rounded';
+  src: url(MuseoSansRounded1000.otf) format('opentype'); 
+  font-weight: 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sora';
+  src: url('Sora-Regular.woff2') format('woff2'),
+      url('Sora-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
